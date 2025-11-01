@@ -1,0 +1,36 @@
+body, * {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "neulis-black";
+    src: url('../fonts/Neulis_Cursive/Neulis_Cursive_Black.otf');
+}
+
+@font-face {
+    font-family: "neulis-medium";
+    src: url('../fonts/Neulis_Cursive/Neulis_Cursive_Medium.otf');
+}
+
+@font-face {
+    font-family: "cocogoose";
+    src: url('../fonts/cocogoose-pro/cocogoose-pro-semilight-trial.ttf');
+}
+
+@font-face {
+    font-family: "jakarta-medium";
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "jakarta-semibold";
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "jakarta-bold";
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.ttf');
+}

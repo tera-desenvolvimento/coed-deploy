@@ -1,0 +1,27 @@
+.info-cards-title {
+    height: 80px;
+    margin-bottom: -100px;
+}
+
+.info-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.info-cards-grid .info-text-wrapper {
+    grid-column: span 1;
+}
+
+.info-cards-grid .info-text-wrapper span {
+    font-family: "jakarta-medium";
+    color: #004F94;
+    font-size: 20px;
+}
+
+.info-cards-grid .info-card-img {
+    grid-column: span 1;
+    height: 450px;
+}

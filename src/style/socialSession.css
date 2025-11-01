@@ -1,0 +1,69 @@
+.social-session-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: -webkit-fill-available;
+    max-width: 1000px;
+    min-height: 700px;
+}
+
+.social-session-container .title {
+    height: 75px;
+    align-self: flex-start;
+}
+
+.social-session-container .social-wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.social-session-container .social-wrapper .images-wrapper {
+    display: flex;
+}
+
+.social-session-container .social-wrapper .images-wrapper img {
+    position: absolute;
+    height: 300px;
+}
+
+.social-session-container .social-wrapper .images-wrapper .social-img-1 {
+    z-index: 1;
+}
+
+.social-session-container .social-wrapper .images-wrapper .social-img-2 {
+    margin-left: 330px;
+    margin-top: 40px;
+    z-index: 3;
+}
+
+.social-session-container .social-wrapper .images-wrapper .social-img-3 {
+    margin-left: 120px;
+    margin-top: 250px;
+    z-index: 2;
+}
+    
+.social-session-container .social-wrapper .smartphone {
+    position: absolute;
+    margin-left: 680px;
+    height: 700px;
+    margin-top: -100px;
+    z-index: 4;
+}
+
+.social-session-container .social-wrapper .ov-img-1 {
+    position: absolute;
+    margin-left: 830px;
+    margin-top: -200px;
+}
+
+.social-session-container .social-wrapper .images-wrapper .ov-line-1 {
+    height: 800px;
+    left: 0;
+}
+
+.social-session-container .social-wrapper .ov-line-2 {
+    position: absolute;
+    margin-top: 100px;
+    height: 800px;
+    right: 0
+}

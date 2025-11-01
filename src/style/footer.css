@@ -1,0 +1,34 @@
+.footer-container {
+    display: flex;
+    background-color: #FBB733;
+    padding: 40px 70px 40px 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.footer-container .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.footer-container .column .logo-coed {
+    width: 130px;
+}
+
+.footer-container .column a, .footer-container .column b {
+    color: #FBFBFB;
+    font-family: "jakarta-semibold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85%;
+    text-decoration: none;
+}
+
+.footer-container .column a:hover {
+    color: #004E94;
+}

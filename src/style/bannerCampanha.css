@@ -1,0 +1,130 @@
+.banner-campanha {
+    display: flex;
+    background-color: #FBB733;
+    border-radius: 50px;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+.banner-campanha .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.banner-campanha .text-wrapper .separator {
+    display: flex;
+}
+
+.banner-campanha .boys-img {
+    margin-top: -140px;
+    z-index: 3;
+}
+
+.banner-campanha .text-wrapper .main-title {
+    height: 130px;
+}
+
+.banner-campanha .line-top {
+    position: absolute;
+    height: 500px;
+    margin-left: -550px;
+    margin-bottom: -200px;
+    z-index: 2;
+}
+
+.banner-campanha .text-wrapper .separator {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 20px;
+}
+
+.banner-campanha .text-wrapper .separator .dates-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.banner-campanha .text-wrapper .separator .title {
+    font-family: "cocogoose";
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner-campanha .text-wrapper .separator .date {
+    font-family: "neulis-black";
+    font-size: 22px;
+    text-align: center;
+    color: #8F0054;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper a {
+    text-decoration: none;
+    font-family: "cocogoose";
+    text-align: center;
+    color: #ffffff;
+    background-color: #AECC1C;
+    border: 3px solid #AECC1C;
+    padding: 5px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    transition: ease-in-out .3s all;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper a.link-1:hover {
+    background-color: #004e94;
+    border: 3px solid #FFFFFF;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper a.link-2:hover {
+    background-color: #ca1211;
+    border: 3px solid #FFFFFF;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper a.link-3:hover {
+    background-color: #ff7508;
+    border: 3px solid #FFFFFF;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper a b {
+    font-size: 15px;
+}
+
+.banner-campanha .text-wrapper .separator .links-wrapper a span {
+    font-size: 10px;
+}
+
+.banner-campanha .icon-detail-3 {
+    position: absolute;
+    top: 180px;
+    margin-left: -50px;
+    height: 120px;
+    z-index: 4;
+}
+
+.banner-campanha .icon-detail-2 {
+    position: absolute;
+    top: 500px;
+    margin-left: -10px;
+    z-index: 4;
+}
+
+.banner-campanha .icon-detail-1 {
+    margin-right: -80px;
+    margin-bottom: 60px;
+    height: 120px;
+    z-index: 4;
+}

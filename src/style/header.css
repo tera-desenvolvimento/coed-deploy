@@ -1,0 +1,70 @@
+.header-container {
+    display: flex;
+    background-color: #8F0054;
+    padding: 30px 70px 20px 70px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    gap: 200px;
+    z-index: 2;
+}
+
+.header-container .iconOvTop2 {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    margin-left: -40px;
+}
+
+.header-container .iconOvTop3 {
+    position: absolute;
+    height: 160px;
+    margin-right: -300px;
+    top: 70px;
+
+}
+
+.header-container .separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-container .menu-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-container .menu-list .menu-item a, .header-container .student-link:hover {
+    font-family: "jakarta-medium";
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.header-container .coed-logo {
+    height: 50px;
+}
+
+.header-container .student-link, .header-container .menu-list .menu-item a:hover {
+    font-family: "jakarta-medium";
+    text-decoration: none;
+    color: #8F0054;
+    background-color: #FBB733;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.header-container .iconOvTop1 {
+    position: absolute;
+    height: 130px;
+    margin-left: 270px;
+    top: 20px;
+}
+
+.header-container .separator .line-header {
+    position: absolute;
+}

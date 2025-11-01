@@ -1,0 +1,54 @@
+.cta-banner {
+    display: flex;
+    max-width: 1000px;
+    gap: 30px;
+    background-color: #FBB733;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.cta-banner .separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.cta-banner .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cta-banner .text-wrapper .title {
+    display: inline-block;
+    color: #FBFBFB;
+    font-family: "jakarta-bold";
+    font-size: 36px;
+    font-style: normal;
+    line-height: 0.87;
+}
+
+.cta-banner .text-wrapper .title .dest {
+    color: #004F94;
+}
+
+.cta-banner .text-wrapper .text {
+    color: #FBFBFB;
+    font-family: "jakarta-semibold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99%;
+}
+
+.cta-banner .text-wrapper .bottom-logo {
+    height: 80px;
+    margin-top: 30px;
+}
+
+.cta-banner .kids-reading {
+    position: absolute;
+    height: 530px;
+    margin-left: 100px;
+}

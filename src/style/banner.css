@@ -1,0 +1,294 @@
+.bg-container {
+    display: flex;
+    height: 100vh;
+    background-color: #8F0054;
+    padding: 60px;
+    justify-content: flex-end;
+}
+
+.bg-container .desk-left-bg img {
+    height: 100vh;
+}
+
+.bg-container .desk-left-bg {
+    position: fixed ;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.bg-container .desk-left-bg .bg {
+    position: fixed;
+    z-index: 30;
+}
+
+.bg-container .desk-left-bg .ov-1 {
+    position: fixed;
+    z-index: 31;
+}
+
+.bg-container .desk-left-bg .kids {
+    z-index: 31;
+    height: 80vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.bg-container .desk-right-bg {
+    position: absolute;
+    right: 0;
+    top: 0; 
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.bg-container .content-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 30;
+    position: fixed;
+    align-self: anchor-center;
+}
+
+.bg-container .desk-right-bg .tab-ov {
+    display: none;
+}
+
+.bg-container .content-container .main-phrase {
+    height: 170px;
+    padding-bottom: 20px;
+    z-index: 40;
+}
+
+.bg-container .content-container .middle-span {
+    font-family: "neulis-medium";
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-container .content-container .separator {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 20px;
+}
+
+.bg-container .content-container .separator .dates-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bg-container .content-container .separator .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bg-container .content-container .separator .title {
+    font-family: "cocogoose";
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.bg-container .content-container .separator .date {
+    font-family: "neulis-black";
+    font-size: 28px;
+    color: #8F0054;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.bg-container .content-container .separator .links-wrapper a {
+    text-decoration: none;
+    font-family: "cocogoose";
+    color: #ffffff;
+    background-color: #FBB733;
+    border: 3px solid #FBB733;
+    padding: 5px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    transition: ease-in-out .3s all;
+}
+
+.bg-container .content-container .separator .links-wrapper a.link-1:hover {
+    background-color: #004e94;
+    border: 3px solid #FFFFFF;
+}
+
+.bg-container .content-container .separator .links-wrapper a.link-2:hover {
+    background-color: #ca1211;
+    border: 3px solid #FFFFFF;
+}
+
+.bg-container .content-container .separator .links-wrapper a.link-3:hover {
+    background-color: #ff7508;
+    border: 3px solid #FFFFFF;
+}
+
+.bg-container .content-container .separator .links-wrapper a b {
+    font-size: 20px;
+}
+
+.bg-container .content-container .separator .links-wrapper a span {
+    font-size: 12px;
+}
+
+.bg-container .content-container .main-link {
+    font-family: "neulis-medium";
+    color: #ffffff;
+    font-size: 15px;
+    width: fit-content;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    align-self: center;
+    margin-bottom: 50px;
+    transition: ease-in-out .3s all;
+}
+
+.bg-container .content-container .main-link:hover {
+    background-color: #ffffff;
+    color: #8F0054;
+}
+
+.bg-container .content-container .coed-logo {
+    height: 75px;
+}
+
+.bg-container .desk-right-bg .ov-right-1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 300px;
+    z-index: 29;
+}
+
+.bg-container .line-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 750px;
+    z-index: 20;
+}
+
+.bg-container .desk-right-bg .coed-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 28;
+    height: 330px;
+    margin-bottom: -60px;
+}
+
+@media (max-width: 1300px) {
+    .bg-container .desk-left-bg .bg, .bg-container .desk-left-bg .ov-1 {
+        margin-left: -300px;
+    }
+
+    .bg-container .content-container .main-phrase {
+        height: 130px;
+    }
+
+    .bg-container .desk-left-bg .kids {
+        margin-left: -120px;
+    }
+}
+
+@media (max-width: 796px) {
+    .bg-container .desk-left-bg .ov-1 {
+        display: none;
+    }
+
+
+
+    .bg-container .desk-left-bg .kids {
+        z-index: 60;
+        width: 100%;
+        min-width: 600px;
+        position: fixed;
+        bottom: 0;
+        justify-self: anchor-center;
+        margin-bottom: -300px;
+        margin-left: unset;
+    }
+
+    .bg-container .content-container {
+        z-index: 60;
+        width: 80%;
+        align-self: unset;
+        justify-self: anchor-center;
+    }
+
+    .bg-container .desk-right-bg .ov-right-1 {
+        display: none;
+    }
+
+    .bg-container .desk-right-bg .coed-text {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 70;
+        height: 200px;
+        margin-bottom: -25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-container {
+        padding: 20px;
+    }
+
+    .bg-container .desk-left-bg .bg, .bg-container .desk-left-bg .ov-1 {
+        margin-left: -450px;
+    }
+
+    .bg-container .content-container .middle-span {
+        font-size: 25px;
+    }
+
+    .bg-container .content-container .separator .title {
+        font-size: 9px;
+    }
+
+    .bg-container .content-container .separator .links-wrapper a b {
+        font-size: 15px;
+    }
+
+    .bg-container .content-container .separator .links-wrapper a span {
+        font-size: 10px;
+    }
+
+    .bg-container .content-container .separator .date {
+        font-size: 20px;
+    }
+
+    .bg-container .content-container .coed-logo {
+        height: 50px;
+    }
+
+    .bg-container .content-container .main-phrase {
+        padding: 0;
+        height: 100px;
+    }
+
+    .bg-container .content-container .separator .links-wrapper a {
+        min-height: 30px;
+    }
+
+    .bg-container .desk-left-bg .kids {
+        margin-left: -90px;
+    }
+
+    .bg-container .desk-right-bg .coed-text {   
+        height: 150px;
+    }
+}
