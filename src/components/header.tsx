@@ -2,7 +2,6 @@ import React from "react";
 
 import coedLogo from "../images/coed-logo.svg";
 import iconOv1Img from "../images/icon-ov-1.svg";
-import iconOv2Img from "../images/icon-ov-2.svg";
 import iconOv3Img from "../images/icon-ov-3.svg";
 
 import "../style/header.css";
@@ -10,7 +9,6 @@ import "../style/header.css";
 function Header() {
     return (
         <div className="header-container">
-            <img src={iconOv2Img} className="iconOvTop2" />
             <div className="separator">
                 <img src={coedLogo} className="coed-logo" />
                 <ul className="menu-list">

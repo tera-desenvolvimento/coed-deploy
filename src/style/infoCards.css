@@ -1,6 +1,7 @@
 .info-cards-title {
     height: 80px;
     margin-bottom: -100px;
+    z-index: 2;
 }
 
 .info-cards-grid {

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../components/header';
 import BannerCampanha from '../components/bannerCampanha';
+import Education from '../components/education';
 import InfoCards from '../components/infoCards';
 import InfoList from '../components/infoList';
 import CtaBanner from '../components/ctaBanner';
@@ -20,6 +21,7 @@ function Home() {
                 <Header />
                 <img src={lineHeader} className="line-header" />
                 <BannerCampanha />
+                <Education />
                 <InfoCards />
                 <InfoList />
                 <CtaBanner />
