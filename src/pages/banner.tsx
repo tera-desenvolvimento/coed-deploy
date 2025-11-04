@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { setCookie } from "../controllers/cookies.controller"
+
 import bgDeskLeft from "../images/bg-desk-left.svg";
 import overlayLeft1 from "../images/overlay-desk-left-1.svg";
 import kidsImg from "../images/kids.svg";
@@ -45,21 +47,21 @@ function Banner() {
                 </div>
                 <div className="links-wrapper">
                   <span className="title">Selecione o segmento de interesse <br />clicando abaixo</span>
-                  <a href="#" className='link-1'>
+                  <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer" className='link-1'>
                     <b>Educação Infantil</b>
                   </a>
-                  <a href="#" className='dual link-2'>
+                  <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer" className='dual link-2'>
                     <b>Anos Iniciais</b>
                     <span>Ensino Fundamental I</span>
                     </a>
-                  <a href="#" className='dual link-3'>
+                  <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer" className='dual link-3'>
                     <b>Anos Finais</b>
                     <span>Ensino Fundamental II</span>
                   </a>
                 </div>
               </div>
 
-              <a href="/" className='main-link'>
+              <a href="/" className='main-link' onClick={() => setCookie({name: "matriculasPageShowed", value: "true"})}>
                 Para acessar o site, clique aqui
               </a>
 

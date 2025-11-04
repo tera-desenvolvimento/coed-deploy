@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { getCookies } from "../controllers/cookies.controller"
+
 import Header from '../components/header';
 import BannerCampanha from '../components/bannerCampanha';
 import Education from '../components/education';
@@ -15,6 +17,10 @@ import lineHeader from "../images/line-header.svg";
 import '../style/home.css';
 
 function Home() {
+    if (!getCookies("matriculasPageShowed")) {
+        window.location.pathname = "/matriculas-2025"
+    }
+
     return (
         <React.Fragment>
             <div className="home-container">
