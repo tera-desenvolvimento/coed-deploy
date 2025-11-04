@@ -15,7 +15,7 @@ import "../style/structureSlider.css";
 
 function StructureSlider() {
     return (
-        <div className="structure-slider-container">
+        <div className="structure-slider-container" id="structure">
             <img src={structureTitle} alt="structure-title" className="structure-title" />
 
             <div className="structure-slider slider">

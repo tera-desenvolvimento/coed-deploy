@@ -16,16 +16,16 @@ function Footer() {
             </div>
             <div className="column">
                 <a href="#">Home</a>
-                <a href="#">Quem somos</a>
-                <a href="#">Nossa história</a>
-                <a href="#">Nosso time</a>
-                <a href="#">Nossa unidade</a>
+                <a href="#about">Quem somos</a>
+                <a href="#about">Nossa história</a>
+                <a href="#about">Nosso time</a>
+                <a href="#structure">Nossa unidade</a>
             </div>
             <div className="column">
-                <a href="#">Educação infantil</a>
-                <a href="#">Ensino fundamental (anos iniciais)</a>
-                <a href="#">Ensino fundamental (anos finais)</a>
-                <a href="#">Outros serviços</a>
+                <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer">Educação infantil</a>
+                <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer">Ensino fundamental (anos iniciais)</a>
+                <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer">Ensino fundamental (anos finais)</a>
+                <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer">Outros serviços</a>
                 <a href="#">Política de privacidade</a>
             </div>
         </div>

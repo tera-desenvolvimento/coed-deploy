@@ -37,7 +37,7 @@ function BannerCampanha() {
                 <img src={bannerCampImg2} className="icon-detail-2" alt="detail" />
                 <img src={bannerCampImg3} className="icon-detail-3" alt="detail" />
             </div>
-            <a href="#">
+            <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer">
                 Clique aqui para realizar a matrícula do <br /> seu filho(a)
             </a>
         </div>

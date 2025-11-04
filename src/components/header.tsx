@@ -35,7 +35,7 @@ function Header() {
                     <img src={iconOv3Img} className="iconOvTop3" />
                 </div>
                 <div className="separator">
-                    <a href="#" className="student-link">
+                    <a href="https://wa.me/+557999442292" target="_blank" rel="noreferrer" className="student-link">
                         Espaço do aluno
                     </a>
                     <button className="menu-opener" onClick={toggleMobMenu}>
