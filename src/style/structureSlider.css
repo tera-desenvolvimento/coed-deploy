@@ -38,3 +38,9 @@
         transform: translateX(-100%);
     }
 }
+
+@media (max-width: 769px) {
+    .structure-slider-container .structure-title {
+        height: 50px;
+    }
+}

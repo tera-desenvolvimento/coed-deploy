@@ -1,6 +1,7 @@
 import React from "react";
 
 import socialTitleImg from "../images/social-title.svg";
+import socialTitleMobImg from "../images/social-title-mob.svg";
 import socialCard1Img from "../images/social-card-1.svg";
 import socialCard2Img from "../images/social-card-2.svg";
 import socialCard3Img from "../images/social-card-3.svg";
@@ -15,7 +16,8 @@ import "../style/socialSession.css";
 function SocialSession() {
     return (
         <div className="social-session-container">
-            <img src={socialTitleImg} alt="title" className="title" />
+            <img src={socialTitleImg} alt="title" className="title desk" />
+            <img src={socialTitleMobImg} alt="title" className="title mob" />
 
             <div className="social-wrapper">
                 <div className="images-wrapper">

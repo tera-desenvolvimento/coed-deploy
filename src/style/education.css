@@ -53,3 +53,30 @@
     margin-left: -130px;
     z-index: 1;
 }
+
+@media (max-width: 1200px) {
+    .education-container {
+        flex-direction: column-reverse;
+        width: 90vw;
+    }
+
+    .education-container .cards-wrapper {
+        margin-left: unset;
+        width: -webkit-fill-available;
+        z-index: 2;
+    }
+
+
+    .education-container .teens {
+        margin-left: 5vw;
+        height: 500px;
+    }
+
+    .education-container .cards-wrapper .card-item {
+        font-size: 22px;
+    }
+
+    .education-container .cards-wrapper .card-item .sub {
+        font-size: 12px;
+    }
+}

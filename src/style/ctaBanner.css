@@ -42,13 +42,49 @@
     line-height: 99%;
 }
 
-.cta-banner .text-wrapper .bottom-logo {
+.cta-banner .text-wrapper .bottom-logo.desk {
     height: 80px;
     margin-top: 30px;
+}
+
+.cta-banner .separator .bottom-logo.mob {
+    display: none;
 }
 
 .cta-banner .kids-reading {
     position: absolute;
     height: 530px;
     margin-left: 100px;
+}
+
+@media (max-width: 769px) {
+    .cta-banner {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .cta-banner .kids-reading {
+        position: relative;
+        height: unset;
+        margin-left: unset;
+        max-width: 100vw;
+    }
+
+    .cta-banner .separator {
+        width: unset;
+    }
+
+    .cta-banner .text-wrapper .bottom-logo.desk {
+        display: none;
+    }
+
+    .cta-banner .separator .bottom-logo.mob {
+        display: block;
+        height: 60px;
+        margin-top: 30px;
+    }
+    
+    .cta-banner .text-wrapper .title {
+        font-size: 28px;
+    }
 }

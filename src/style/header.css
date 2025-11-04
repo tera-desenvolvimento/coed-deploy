@@ -5,7 +5,7 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     gap: 200px;
-    z-index: 2;
+    z-index: 5;
 }
 
 .header-container .iconOvTop3 {
@@ -30,11 +30,17 @@
     gap: 20px;
 }
 
+
 .header-container .menu-list .menu-item a, .header-container .student-link:hover {
     font-family: "jakarta-medium";
     text-decoration: none;
     padding: 5px 10px;
     color: #FFFFFF;
+    background-color: transparent;
+}
+
+.header-container .menu-opener {
+    display: none;
     background-color: transparent;
 }
 
@@ -60,4 +66,101 @@
 
 .header-container .separator .line-header {
     position: absolute;
+}
+
+.menu-mobile.closed {
+    top: -200px;
+}
+
+.menu-mobile {
+    position: absolute;
+    z-index: 6;
+    top: 70px;
+    right: 20px;
+    transition: ease-in all .4s;
+}
+
+.menu-mobile .menu-list-mob {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    width: 120px;
+}
+
+.menu-mobile .menu-list-mob li {
+    width: 100%;
+}
+
+.menu-mobile .menu-list-mob a {
+    font-family: "jakarta-medium";
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #FBB733;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .header-container {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 30px 20px 20px 20px;
+        gap: 0
+    }
+
+    .header-container .separator {
+        gap: 10px;
+    }
+
+    .header-container .menu-list {
+        gap: 0px;
+    }
+
+    .header-container .iconOvTop1 {
+        height: 100px;
+        margin-left: 190px;
+        top: 80px;
+    }
+
+    .header-container .iconOvTop3 {
+        top: 100px;
+        margin-right: -400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    .header-container .student-link {
+        font-size: 12px;
+    }
+
+    .header-container .coed-logo {
+        height: 30px;
+    }
+
+    .header-container .menu-list {
+        display: none;
+    }
+
+    .header-container .menu-opener {
+        display: flex;
+    }
+
+
+    .header-container .iconOvTop1 {
+        top: 300px;
+        right: 0;
+    }
 }

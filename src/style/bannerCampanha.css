@@ -111,3 +111,111 @@
 .campanha-container a:hover {
     background-color: #FBB733;
 }
+
+@media (max-width: 1200px) {
+    .banner-campanha .boys-img {
+        margin-top: -40px;
+        margin-right: -200px;
+    }
+
+    .banner-campanha .text-wrapper {
+        height: -webkit-fill-available;
+    }
+
+    .banner-campanha .text-wrapper .main-title {
+        height: 100px;
+    }
+
+    .banner-campanha .text-wrapper .separator {
+        justify-content: flex-end;
+        height: -webkit-fill-available;
+    }
+
+    .banner-campanha .text-wrapper .separator .dates-wrapper {
+        flex-direction: column;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+    .campanha-container {
+        padding-bottom: 50px;
+    }
+
+    .banner-campanha .text-wrapper {
+        height: unset;
+    }
+
+    .banner-campanha .text-wrapper .main-title {
+        height: 70px;
+    }
+
+    .banner-campanha {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .banner-campanha .boys-img {
+        margin-right: unset;
+        margin-left: -80px;
+        height: 360px;
+    }
+
+    .banner-campanha .text-wrapper .separator {
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .banner-campanha .text-wrapper .separator .dates-wrapper {
+        width: -webkit-fill-available;
+        gap: 20px;
+    }
+
+    .banner-campanha .text-wrapper .separator .dates-wrapper div {
+        gap: 10px;
+    }
+
+
+    .banner-campanha .text-wrapper .separator .title {
+        font-size: 18px;
+    }
+
+    .banner-campanha .text-wrapper .separator .date {
+        width: fit-content;
+        align-self: center;
+        padding: 0 30px;
+        font-size: 30px;
+    }
+
+    .banner-campanha .icon-detail-1 {
+        position: absolute;
+        margin-bottom: unset;
+        margin-right: unset;
+        top: 700px;
+        right: 0px;
+        height: 90px;
+    }
+
+    .banner-campanha .icon-detail-2 {
+        height: 100px;
+        left: 0;
+    }
+
+    .banner-campanha .icon-detail-3 {
+        top: unset;
+        margin: unset;
+        left: 0;
+        height: 80px;
+    }
+
+    .banner-campanha .line-top {
+        height: 250px;
+        margin: unset;
+        margin-left: -600px;
+    }
+
+    .campanha-container a {
+        font-size: 12px;
+    }
+}

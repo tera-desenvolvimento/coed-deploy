@@ -11,6 +11,7 @@ function InfoCards() {
         <React.Fragment>
             <img src={title} className="info-cards-title" id="about" />
             <div className="info-cards-grid">
+                <img src={fachadaImg} className="info-card-img 1 mob" />
                 <div className="info-text-wrapper">
                     <span>
                         Há décadas, o COED vem formando gerações em Neópolis, sendo referência em educação infantil e juvenil. Mais do que ensinar, cultivamos valores, descobrimos talentos e incentivamos sonhos. <br />
@@ -18,10 +19,10 @@ function InfoCards() {
                         Aqui, tradição e inovação caminham juntas. Mantemos o compromisso de oferecer um ensino de qualidade, aliado a projetos que estimulam a criatividade, o pensamento crítico e o amor pelo aprendizado.
                     </span>
                 </div>
-                <img src={fachadaImg} className="info-card-img 1" />
+                <img src={fachadaImg} className="info-card-img 1 desk" />
                 <img src={corredorImg} className="info-card-img 2" />
             </div>
-        </React.Fragment>
+        </React.Fragment> 
     )
 }
 

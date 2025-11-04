@@ -32,3 +32,13 @@
 .footer-container .column a:hover {
     color: #004E94;
 }
+
+@media (max-width: 769px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 20px;
+        width: 100vw;
+        gap: 50px;
+        border-radius: 0;
+    }
+}

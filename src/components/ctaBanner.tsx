@@ -17,10 +17,11 @@ function CtaBanner() {
                     Com uma formação que valoriza tanto a inovação quanto os princípios tradicionais, garantimos que seu filho esteja preparado para enfrentar os desafios do futuro.
                 </span>
 
-                <img src={coedLogo} className="bottom-logo" alt="coed-logo" />
+                <img src={coedLogo} className="bottom-logo desk" alt="coed-logo" />
             </div>
             <div className="separator">
                 <img src={kidsReading} className="kids-reading" alt="kids-reading" />
+                <img src={coedLogo} className="bottom-logo mob" alt="coed-logo" />
             </div>
         </div>
     )
