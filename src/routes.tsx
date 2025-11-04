@@ -7,7 +7,7 @@ const MyRoutes = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/matriculas-2025" element={<Banner />} />
+                <Route path="/matriculas-2026" element={<Banner />} />
                 <Route path="/" element={<Home />}/>
             </Routes>
         </Router>

@@ -18,7 +18,7 @@ import '../style/home.css';
 
 function Home() {
     if (!getCookies("matriculasPageShowed")) {
-        window.location.pathname = "/matriculas-2025"
+        window.location.pathname = "/matriculas-2026"
     }
 
     return (
