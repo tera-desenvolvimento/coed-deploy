@@ -36,7 +36,7 @@ function Header() {
                 </div>
                 <div className="separator">
                     <a href="https://meu.olaisaac.io/auth" target="_blank" rel="noreferrer" className="student-link">
-                        Espaço do aluno
+                        Financeiro
                     </a>
                     <button className="menu-opener" onClick={toggleMobMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 15 12" fill="none">
